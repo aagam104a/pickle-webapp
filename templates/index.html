@@ -1,0 +1,129 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Input Form</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 15px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            grid-column: span 6;
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>User Input Form</h1>
+    <form action="/predict" method="post">
+        <label for="general_health">General Health:</label>
+        <input type="text" id="general_health" name="general_health" required>
+
+        <label for="checkup">Checkup Frequency:</label>
+        <input type="text" id="checkup" name="checkup" required>
+
+        <label for="exercise">Exercise (hours per week):</label>
+        <input type="text" id="exercise" name="exercise" required>
+
+        <label for="depression">Depression Score:</label>
+        <input type="text" id="depression" name="depression" required><br>
+
+        <label for="diabetes">Diabetes (0 for No, 1 for Yes):</label>
+        <input type="text" id="diabetes" name="diabetes" required><br>
+
+        <label for="arthritis">Arthritis (0 for No, 1 for Yes):</label>
+        <input type="text" id="arthritis" name="arthritis" required><br>
+
+        <label for="age_category">Age Category:</label>
+        <input type="text" id="age_category" name="age_category" required><br>
+
+        <label for="sex_Male">Sex (Male):</label>
+        <input type="text" id="sex_Male" name="sex_Male" required><br>
+
+        <label for="sex_Female">Sex (Female):</label>
+        <input type="text" id="sex_Female" name="sex_Female" required><br>
+
+        <label for="height">Height (cm):</label>
+        <input type="text" id="height" name="height" required><br>
+
+        <label for="weight">Weight (kg):</label>
+        <input type="text" id="weight" name="weight" required><br>
+
+        <label for="bmi">BMI:</label>
+        <input type="text" id="bmi" name="bmi" required><br>
+
+        <label for="alcohol_consumption">Alcohol Consumption:</label>
+        <input type="text" id="alcohol_consumption" name="alcohol_consumption" required><br>
+
+        <label for="fruit_consumption">Fruit Consumption:</label>
+        <input type="text" id="fruit_consumption" name="fruit_consumption" required><br>
+
+        <label for="vegetables_consumption">Vegetables Consumption:</label>
+        <input type="text" id="vegetables_consumption" name="vegetables_consumption" required><br>
+
+        <label for="potato_consumption">Potato Consumption:</label>
+        <input type="text" id="potato_consumption" name="potato_consumption" required><br>
+
+        <label for="smoking_history_No">Smoking History (No):</label>
+        <input type="text" id="smoking_history_No" name="smoking_history_No" required><br>
+
+        <label for="smoking_history_Yes">Smoking History (Yes):</label>
+        <input type="text" id="smoking_history_Yes" name="smoking_history_Yes" required><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
+
+
