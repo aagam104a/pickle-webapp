@@ -6,29 +6,27 @@ This is a simple web application built using Flask and Python for predicting the
 
 - Python 3.9.0 or Above
 - Flask (Backend Framework)
+- pip install flask
 - pickle (for loading the trained model)
 
 ## 💻 Installation
 
 1. Clone the repository:
 
-   \`\`\`bash
    git clone (https://github.com/aagam104a/Cardio_Forecast_pickle-webapp.git)
-   \`\`\`
+   
 
-2. Install the required dependencies:
+3. Install the required dependencies:
 
-   \`\`\`bash
    pip install flask
-   \`\`\`
+   
 
 ## 🚀 Usage
 
 1. Run the Flask application:
 
-   \`\`\`bash
-   python app.py
-   \`\`\`
+    python app.py
+   
 
 2. Open your web browser and go to \`http://localhost:5000\` to access the web application.
 
