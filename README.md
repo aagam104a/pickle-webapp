@@ -1,10 +1,10 @@
-echo "# Cardio Forecast Web Application
+# Cardio Forecast Web Application
 
 This is a simple web application built using Flask and Python for predicting the risk of Cardiovascular Disease based on user input. The application uses a Random Forest Classifier model trained on relevant features.
 
 ## Requirements
 
-- Python 3.x
+- Python 3.9 or +
 - Flask
 - pickle (for loading the trained model)
 
