@@ -1,14 +1,14 @@
-# Cardio Forecast Web Application
+# 🩺 Cardio Forecast Web Application
 
 This is a simple web application built using Flask and Python for predicting the risk of Cardiovascular Disease based on user input. The application uses a Random Forest Classifier model trained on relevant features.
 
-## Requirements
+## 📋 Requirements
 
-- Python 3.9 or +
-- Flask
+- Python 3.9.0 or Above
+- Flask (Backend Framework)
 - pickle (for loading the trained model)
 
-## Installation
+## 💻 Installation
 
 1. Clone the repository:
 
@@ -22,7 +22,7 @@ This is a simple web application built using Flask and Python for predicting the
    pip install flask
    \`\`\`
 
-## Usage
+## 🚀 Usage
 
 1. Run the Flask application:
 
@@ -53,7 +53,7 @@ This is a simple web application built using Flask and Python for predicting the
 
 4. Click the \"Predict\" button to see the predicted risk of Cardiovascular Disease.
 
-## File Structure
+## 📁 File Structure
 
 - \`app.py\`: Main Flask application file containing the routes and model prediction logic.
 - \`templates/\`: Directory containing HTML templates for the web pages.
@@ -62,6 +62,6 @@ This is a simple web application built using Flask and Python for predicting the
 - \`static/\`: Directory containing static files such as CSS stylesheets and images.
 - \`random_forest_model.pkl\`: Pickled trained Random Forest Classifier model for predicting the risk of Cardiovascular Disease.
 
-## License
+## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details." > README.md
