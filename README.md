@@ -13,7 +13,7 @@ This is a simple web application built using Flask and Python for predicting the
 1. Clone the repository:
 
    \`\`\`bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone (https://github.com/aagam104a/Cardio_Forecast_pickle-webapp.git)
    \`\`\`
 
 2. Install the required dependencies:
