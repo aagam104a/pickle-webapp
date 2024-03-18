@@ -28,7 +28,7 @@ This is a simple web application built using Flask and Python for predicting the
     python app.py
    
 
-2. Open your web browser and go to \`http://localhost:5000\` to access the web application.
+2. Open your web browser and go to \`http://localhost:3000\` to access the web application.
 
 3. Fill in the form with the required information:
 
